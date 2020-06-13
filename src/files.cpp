@@ -23,9 +23,9 @@ void Files::Init(void) {
     static_base_ = "/data2/poker2019/static";
   } else {
     // Assume Amazon
-    old_cfr_base_ = "/data/poker2019/cfr";
-    new_cfr_base_ = "/data/poker2019/cfr";
-    static_base_ = "/data/poker2019/static";
+    old_cfr_base_ = "mnt/c/pbs/slumbot2019/data/poker2019/cfr";
+    new_cfr_base_ = "mnt/c/pbs/slumbot2019/data/poker2019/cfr";
+    static_base_ = "mnt/c/pbs/slumbot2019/data/poker2019/static";
   }
 }
 
